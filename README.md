@@ -17,7 +17,7 @@
   <h3 align="center">Trivia Random!</h3>
 
   <p align="center">
-    Fun, simple app made using the open trivia database API. Pulls one randomized trivia question at a time from a very large repository of question.
+    Fun, simple app made using the open trivia database API. Pulls one randomized trivia question at a time from a very large repository of questions.
   </p>
 </div>
 
