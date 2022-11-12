@@ -19,6 +19,9 @@
   <p align="center">
     Fun, simple app made using the open trivia database API. Pulls one randomized trivia question at a time from a very large repository of questions.
   </p>
+  <p>There are currently <strong>three</strong> versions of this little app online. The <a href="https://triviarandom.netlify.app">original</a> (seen above), the 
+  <a href="https://triviarandomsports.netlify.app">sport edition</a>, and finally the <a href="https://triviarandommusic.netlify.app">music edition</a>. Each one customized to fit their respective genere.
+  </p>
 </div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bdcd850f-63f6-404c-828a-c8e370703f60/deploy-status)](https://app.netlify.com/sites/triviarandom/deploys)
