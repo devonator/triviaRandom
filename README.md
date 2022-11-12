@@ -21,6 +21,7 @@
   </p>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bdcd850f-63f6-404c-828a-c8e370703f60/deploy-status)](https://app.netlify.com/sites/triviarandom/deploys)
 
 
 <!-- TABLE OF CONTENTS -->
