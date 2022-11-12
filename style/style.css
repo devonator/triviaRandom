@@ -81,3 +81,7 @@ div > p{
   grid-row: 9;
   list-style: none;
 }
+
+#githubLogo{
+  font-size: 30px;
+}
