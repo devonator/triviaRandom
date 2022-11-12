@@ -17,10 +17,11 @@
   <h3 align="center">Trivia Random!</h3>
 
   <p align="center">
-    Fun, simple app made using the open trivia database API. Pulls one randomized trivia question at a time from a very large repository of question.
+    Fun, simple app made using the open trivia database API. Pulls one randomized trivia question at a time from a very large repository of questions.
   </p>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bdcd850f-63f6-404c-828a-c8e370703f60/deploy-status)](https://app.netlify.com/sites/triviarandom/deploys)
 
 
 <!-- TABLE OF CONTENTS -->
@@ -117,7 +118,6 @@ Project Link: https://triviarandom.netlify.app
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
