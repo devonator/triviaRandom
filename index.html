@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <main>
+    <h1>Trivia Random</h1>
+    <p>A simple app that uses the <a href="https://opentdb.com/api_config.php">Open Trivia Database API</a> to pull random questions and answers. Click the 'show answer' button to check if you were right!</p>
+
+    <div class="container">
+
+      <p><span class="category">Category:</span></p>
+      <h3 class="displayQuestion">Random trivia question will appear here. Good luck!</h3>
+      <button class="getQuestion">get question</button>
+      <button class="showAns">show answer</button>
+
+      <ul class="answerContainer hidden">
+        <!--Answer(s) show here-->
+      </ul>
+      
+    </div>
+
+  </main>
+
+  <script src="main/main.js"></script>
+</body>
+</html>
