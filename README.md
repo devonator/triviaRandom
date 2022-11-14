@@ -65,7 +65,7 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-I threw this app together in a couple of hours as a way to practice my API skills. Click the 'get question' button to recieve a random trivia question back from the <a href="https://opentdb.com/api_config.php">Open Trivia Database</a>. The API will send one question at a time, as well as the answer. The answer will be hidden until user clicks 'show answer'. Upon requesting another question, the answer will again be hidden until the user is ready.
+I made these little apps as a way to practice my API skills. Click the 'get question' button to recieve a random trivia question back from the <a href="https://opentdb.com/api_config.php">Open Trivia Database</a>. The API will send one question at a time, as well as the answer. The answer will be hidden until user clicks 'show answer'. Upon requesting another question, the answer will again be hidden until the user is ready.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
