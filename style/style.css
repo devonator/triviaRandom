@@ -75,6 +75,9 @@ div > p{
 }
 
 .answerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   font-size: 2rem;
   grid-column: 2 / span 7;
@@ -84,4 +87,28 @@ div > p{
 
 #githubLogo{
   font-size: 30px;
+}
+
+.answerBox{
+  border: 2px solid red;
+  height: 20px;
+  width: 45px;
+  flex-direction: column;
+}
+
+li{
+  flex-direction: row;
+  font-size: 13px;
+  display: inline-block;
+  margin: 0 2px;
+  word-wrap: break-word;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.correct{
+  color: green;
 }

@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-  <title>Trivia Random</title>
-</head>
-<body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Trivia Random</title>
+  </head>
+  <body>
+    <main>
+      <h1>Trivia Random</h1>
+      <p>
+        A simple app that uses the
+        <a href="https://opentdb.com/api_config.php"
+          >Open Trivia Database API</a
+        >
+        to pull random questions and answers. Click the 'show answer' button to
+        check if you were right!
+      </p>
+      <p>
+        Also check out
+        <a href="https://triviarandommusic.netlify.app/">Trivia Random Music</a>
+        and
+        <a href="https://triviarandomsports.netlify.app/">Trivia Random Sport</a
+        >.
+      </p>
 
-  <main>
-    <h1>Trivia Random</h1>
-    <p>A simple app that uses the <a href="https://opentdb.com/api_config.php">Open Trivia Database API</a> to pull random questions and answers. Click the 'show answer' button to check if you were right!</p>
-    <p>Also check out <a href="https://triviarandommusic.netlify.app/">Trivia Random Music</a> and <a href="https://triviarandomsports.netlify.app/">Trivia Random Sport</a>.</p>
+      <div class="container">
+        <p><span class="category">Category:</span></p>
+        <h3 class="displayQuestion">
+          Random trivia question will appear here. Good luck!
+        </h3>
+        <button class="getQuestion">get question</button>
+        <button class="showAns">show answer</button>
 
-    <div class="container">
+        <ul class="answerContainer hidden">
+          <!--Answer(s) show here-->
+        </ul>
+      </div>
+      <p>
+        This project is available on
+        <a href="https://github.com/RyanShort13110/triviaRandom"
+          ><i class="fa fa-github" id="githubLogo"></i
+        ></a>
+      </p>
+    </main>
 
-      <p><span class="category">Category:</span></p>
-      <h3 class="displayQuestion">Random trivia question will appear here. Good luck!</h3>
-      <button class="getQuestion">get question</button>
-      <button class="showAns">show answer</button>
-
-      <ul class="answerContainer hidden">
-        <!--Answer(s) show here-->
-      </ul>
-      
-    </div>
-    <p>This project is available on <a href="https://github.com/RyanShort13110/triviaRandom"><i class='fa fa-github' id="githubLogo"></i></a></p>
-
-  </main>
-
-  <script src="main/main.js"></script>
-</body>
+    <script src="main/main.js"></script>
+  </body>
 </html>
